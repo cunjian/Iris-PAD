@@ -1,0 +1,7 @@
+classes=2
+train  = data/LivDet-2017/train.txt
+valid  = data/LivDet-2017/train.txt
+labels = data/LivDet-2017/labels.txt
+backup = backup_crop/
+top=2
+

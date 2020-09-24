@@ -1,0 +1,6 @@
+classes=2
+train  = data/Iris_Det/train.txt
+valid  = data/Iris_Det/train.txt
+names  = data/iris_det.names
+backup = backup_det/
+
