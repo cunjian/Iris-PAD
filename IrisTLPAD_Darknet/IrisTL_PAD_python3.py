@@ -134,9 +134,10 @@ def detect(net, meta, image, thresh=.5, hier_thresh=.5, nms=.45):
     return res
     
 if __name__ == "__main__":
-
+    #https://drive.google.com/file/d/1W-UJmD5yJgMKAiPBoSLRV04BR8XuED9c/view?usp=sharing
     net_det = load_net(b"cfg/detection.cfg", b"backup_det/yolo-final.weights", 0)
     meta_det = load_meta(b"data/iris_det.data")
+    #https://drive.google.com/file/d/1KF-XhmBIz1EC4LuhBhxB6_VcuiyDhpu3/view?usp=sharing
     net = load_net(b"cfg/classification.cfg", b"backup_crop/classification_60.weights", 0)
     meta = load_meta(b"data/LivDet-crop.data")
 
